@@ -1,0 +1,49 @@
+body {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    height: 90vh;
+  }
+  
+  header {
+    background-color: darkblue;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .main-content > div {
+    width: 50%;
+    display: inline-block;
+  }
+  
+  .form-title {
+    color: darkblue;
+    text-align: center;
+  }
+  
+  .generate-card {
+    color: white;
+    background: darkblue;
+    border-radius: 5px;
+  }
+  
+  .card > div:first-child {  
+    width: 30%;
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+    background-color: red;
+    height: 100px;
+  }
+  
+  .card > div:last-child {  
+    width: 70%;
+    display: inline-block;
+    border-radius: 0 5px 5px 0;
+    background-color: green;
+    height: 100px;
+  }
